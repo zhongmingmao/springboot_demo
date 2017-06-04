@@ -3,10 +3,10 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>me.zhongmingmao</groupId>
-    <artifactId>javaboot_demo</artifactId>
+    <artifactId>springboot_demo</artifactId>
     <version>1.0-SNAPSHOT</version>
     <packaging>pom</packaging>
-    <name>javaboot_demo</name>
+    <name>springboot_demo</name>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -15,5 +15,6 @@
     <modules>
         <module>quick_start</module>
         <module>thymeleaf</module>
+        <module>restful</module>
     </modules>
 </project>
