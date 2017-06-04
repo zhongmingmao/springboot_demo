@@ -24,4 +24,7 @@ hs_err_pid*
 # IntelliJ IDEA
 .idea/
 target/
+.mvn
+mvnw
+mvnw.cmd
 *.iml
