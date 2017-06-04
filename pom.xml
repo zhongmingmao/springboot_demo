@@ -14,5 +14,6 @@
 
     <modules>
         <module>quick_start</module>
+        <module>thymeleaf</module>
     </modules>
 </project>
