@@ -17,5 +17,6 @@
         <module>thymeleaf</module>
         <module>restful</module>
         <module>jdbc_template</module>
+        <module>data_jpa</module>
     </modules>
 </project>
