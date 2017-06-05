@@ -1,0 +1,15 @@
+language: java
+jdk:
+  - oraclejdk8
+
+before_install:
+   - "echo skipped"
+install:
+  - "echo skipped"
+script:
+  - mvn test
+
+notifications:
+  email:
+    recipients:
+      - zhongmingmao0625@gmail.com
