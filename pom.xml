@@ -16,5 +16,6 @@
         <module>quick_start</module>
         <module>thymeleaf</module>
         <module>restful</module>
+        <module>jdbc_template</module>
     </modules>
 </project>
