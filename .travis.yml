@@ -3,9 +3,11 @@ jdk:
   - oraclejdk8
 
 before_install:
-   - "echo skipped"
+  - "echo skipped"
+
 install:
   - "echo skipped"
+
 script:
   - mvn test
 
