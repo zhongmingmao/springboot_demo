@@ -1,7 +1,6 @@
-package me.zhongmingmao;
+package me.zhongmingmao.service;
 
 import me.zhongmingmao.domain.User;
-import me.zhongmingmao.service.UserService;
 import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -14,7 +13,7 @@ import static org.junit.Assert.assertNotNull;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest
-public class JdbcTemplateApplicationTests {
+public class UserServiceTests {
     
     @Autowired
     private UserService userService;

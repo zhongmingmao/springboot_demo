@@ -9,7 +9,7 @@ import org.springframework.stereotype.Service;
 public class UserServiceImpl implements UserService {
     
     @Autowired
-    private JdbcTemplate jdbcTemplate;
+    private JdbcTemplate jdbcTemplate; // 注入的是defaultJdbcTemplate，与Spring Boot自动配置一致
     
     @Override
     public void createUser(Long id, String name) {
