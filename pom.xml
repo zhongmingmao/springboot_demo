@@ -21,5 +21,6 @@
         <module>data_jpa_multi_datasource</module>
         <module>redis</module>
         <module>scheduled</module>
+        <module>async</module>
     </modules>
 </project>
