@@ -1,6 +1,5 @@
-package me.zhongmingmao;
+package me.zhongmingmao.web;
 
-import me.zhongmingmao.web.UserController;
 import org.hamcrest.core.IsEqual;
 import org.junit.Before;
 import org.junit.Test;
@@ -16,7 +15,7 @@ import org.springframework.test.web.servlet.setup.MockMvcBuilders;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest
-public class RestfulApplicationTests {
+public class UserControllerTests {
     
     private MockMvc mockMvc;
     
