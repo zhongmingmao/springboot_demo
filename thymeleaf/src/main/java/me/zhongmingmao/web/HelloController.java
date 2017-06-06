@@ -8,6 +8,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import java.util.function.BiFunction;
 
 @Controller
+@RequestMapping("/hello")
 public class HelloController {
     
     @RequestMapping("/")
@@ -17,5 +18,10 @@ public class HelloController {
         // 加入属性，能在Thymeleaf模板中能读取到
         map.addAttribute("user", userBiFunction.apply("zhongmingmao", "GD"));
         return "index"; // 映射为src/main/resources/templates/index.html
+    }
+    
+    @RequestMapping("/error")
+    public String error() {
+        throw new RuntimeException("Something Wrong");
     }
 }
