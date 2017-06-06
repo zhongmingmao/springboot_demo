@@ -19,5 +19,6 @@
         <module>jdbc_template</module>
         <module>data_jpa</module>
         <module>data_jpa_multi_datasource</module>
+        <module>redis</module>
     </modules>
 </project>
