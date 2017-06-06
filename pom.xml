@@ -23,5 +23,6 @@
         <module>scheduled</module>
         <module>async</module>
         <module>mongodb</module>
+        <module>aop_web</module>
     </modules>
 </project>
