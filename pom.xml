@@ -22,5 +22,6 @@
         <module>redis</module>
         <module>scheduled</module>
         <module>async</module>
+        <module>mongodb</module>
     </modules>
 </project>
