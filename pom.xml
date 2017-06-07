@@ -24,5 +24,6 @@
         <module>async</module>
         <module>mongodb</module>
         <module>aop_web</module>
+        <module>log4j2_mongodb</module>
     </modules>
 </project>
