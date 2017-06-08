@@ -25,5 +25,6 @@
         <module>mongodb</module>
         <module>aop_web</module>
         <module>log4j2_mongodb</module>
+        <module>transaction</module>
     </modules>
 </project>
