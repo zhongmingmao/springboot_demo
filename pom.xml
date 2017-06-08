@@ -27,5 +27,6 @@
         <module>log4j2_mongodb</module>
         <module>transaction</module>
         <module>security</module>
+        <module>mail</module>
     </modules>
 </project>
