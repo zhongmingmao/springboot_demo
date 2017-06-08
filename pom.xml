@@ -28,5 +28,6 @@
         <module>transaction</module>
         <module>security</module>
         <module>mail</module>
+        <module>cache</module>
     </modules>
 </project>
