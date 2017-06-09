@@ -31,5 +31,6 @@
         <module>cache</module>
         <module>mybatis</module>
         <module>rabbitmq</module>
+        <module>state_machine</module>
     </modules>
 </project>
