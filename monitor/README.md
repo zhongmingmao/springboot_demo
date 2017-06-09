@@ -252,6 +252,7 @@ brew services restart grafana
 
 ## 3.4 Example
 
+[monitor.png](http://or9cl4687.bkt.clouddn.com/monitor.png)
 ![monitor](http://or9cl4687.bkt.clouddn.com/monitor.png)
 
 ## 3.5 Grafana Docs
