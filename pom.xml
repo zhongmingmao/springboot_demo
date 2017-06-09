@@ -34,5 +34,6 @@
         <module>state_machine</module>
         <module>admin_server</module>
         <module>admin_client</module>
+        <module>monitor</module>
     </modules>
 </project>
