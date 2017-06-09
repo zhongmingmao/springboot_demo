@@ -30,5 +30,6 @@
         <module>mail</module>
         <module>cache</module>
         <module>mybatis</module>
+        <module>rabbitmq</module>
     </modules>
 </project>
