@@ -35,5 +35,6 @@
         <module>admin_server</module>
         <module>admin_client</module>
         <module>monitor</module>
+        <module>bean_life_cycle</module>
     </modules>
 </project>
