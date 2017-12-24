@@ -36,5 +36,6 @@
         <module>admin_client</module>
         <module>monitor</module>
         <module>bean_life_cycle</module>
+        <module>hot_deploy</module>
     </modules>
 </project>
