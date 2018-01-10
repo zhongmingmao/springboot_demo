@@ -3,6 +3,7 @@ package me.zhongmingmao.repository;
 import me.zhongmingmao.domain.User;
 import org.springframework.stereotype.Repository;
 
+import java.util.Collection;
 import java.util.concurrent.ConcurrentHashMap;
 import java.util.concurrent.atomic.AtomicInteger;
 
@@ -17,5 +18,9 @@ public class UserRepository {
         Integer id = ID_GENERATOR.incrementAndGet();
         user.setId(id);
         return repository.put(id, user) == null;
+    }
+    
+    public Collection<User> findAll() {
+        return repository.values();
     }
 }
